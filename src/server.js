@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
+const path = require("path");
 
 const albumRoutes = require("./routes/albums.routes");
 const photoRoutes = require("./routes/photos.routes");
@@ -9,8 +10,9 @@ const { HttpError } = require("./middleware/httpError");
 const app = express();
 
 app.use(cors());
-app.use(express.json());
 app.use(morgan("dev"));
+app.use(express.json());
+app.use("/static", express.static(path.join(__dirname, "..", "public")));
 
 app.get("/", (req, res) => {
   res.type("html").send(`

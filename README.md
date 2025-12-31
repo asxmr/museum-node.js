@@ -8,6 +8,51 @@ Het project voldoet aan alle **functionele en technische vereisten** van de opdr
 
 ---
 
+## 📸 Screenshots
+
+Ter ondersteuning van de functionaliteiten en ter demonstratie van de werking van de API  
+werden screenshots genomen van de belangrijkste endpoints en features.
+
+Alle screenshots zijn terug te vinden in de map:
+
+```
+/screenshots
+```
+
+### Overzicht van genomen screenshots
+
+- **localhost_3000_.png**  
+  Root documentatiepagina (`GET /`) met overzicht van alle endpoints
+
+- **localhost_3000_albums.png**  
+  Overzicht van alle albums (`GET /albums`)
+
+- **localhost_3000_albums_sort=title&order=asc.png**  
+  Albums gesorteerd op titel (`sort` & `order`)
+
+- **localhost_3000_photos.png**  
+  Overzicht van alle foto’s (`GET /photos`)
+
+- **localhost_3000_photos_search=iPhone.png**  
+  Zoeken van foto’s op cameraModel (`search`)
+
+- **localhost_3000_photos_albumId=1.png**  
+  Filteren van foto’s op album (`albumId`)
+
+- **localhost_3000_photos_limit=3&offset=0.png**  
+  Paginatie met limit & offset (eerste pagina)
+
+- **localhost_3000_photos_limit=3&offset=3.png**  
+  Paginatie met limit & offset (volgende pagina)
+
+- **localhost_3000_static_photos_photo-03.jpeg.png**  
+  Serveren van statische foto via de static route
+
+Deze screenshots tonen aan dat alle functionele vereisten  
+(zoals CRUD, search, sortering, paginatie en static file serving)  
+correct geïmplementeerd en getest zijn.
+
+
 ## 🚀 Functionaliteiten
 
 ### Entiteiten

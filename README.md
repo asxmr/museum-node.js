@@ -233,7 +233,11 @@ De gebruikte code werd telkens **begrepen en aangepast** aan dit project.
 
 ## 🎥 Screencast
 
-HIER VOEG IK STRAKS HET LINK
+Bekijk hier de demonstratie van de applicatie:
+
+[▶️ Bekijk de screencast](./screencast/museum-nodeJs.mp4)
+
+*(Indien de link niet werkt, kan de video ook geopend worden via `/screencast/museum- nodeJs.mp4`.)*
 
 ---
 
